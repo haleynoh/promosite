@@ -1,0 +1,50 @@
+* {
+	box-sizing; border-box;
+}
+
+body {
+	background-color:#050505;
+	color: #fff;
+	font-family:serif, Georgia;
+}
+
+body, html {
+	padding: 10px;
+	margin: 0px;
+}
+
+img {
+	width:600px;
+	height: auto;
+
+}
+
+.heading {
+	background-color: #770A0F;
+	padding: 10px;
+	color: #FFE6A6;
+	font-size:40px;
+}
+
+.descriptionBody {
+	margin: 40px;
+	font-size: 20px;
+	font-family:"Courier New", Monospace;
+}
+
+.column {
+	float: left;
+	width:23.5%;
+	padding: 5px;
+}
+
+.row::after{
+	content:"";
+	clear: both;
+	display: table;
+}
+
+h3 {
+	font-color: #E12226;
+	font-size: 30px;
+}
